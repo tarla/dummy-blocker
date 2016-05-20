@@ -1,0 +1,16 @@
+{
+  "name": "Dummy Blocker",
+  "version": "0.0.0.1",
+  "description": "You should be working hard!",
+  "permissions": ["webRequest", "webRequestBlocking", "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources": [
+    "*.html"
+ ],
+  "manifest_version": 2
+}
